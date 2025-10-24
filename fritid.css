@@ -15,7 +15,7 @@ header {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -27,46 +27,39 @@ body {
   justify-content: space-evenly;
   gap: 25px;
   margin-top: 40px;
-
 }
 
 .item {
-    border: 4px solid darkgray;
-    justify-content: space-evenly;
-   
-   
+  border: 4px solid darkgray;
+  justify-content: space-evenly;
 }
 
-.item-2{
-   grid-row: span 2;
-    
-
-    
+.item-2 {
+  grid-row: span 2;
 }
 
-
-    
-
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
 
 h1 {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 45px;
-
+  text-align: center;
+  margin-top: 30px;
+  font-size: 45px;
 }
 
 p {
-    color: black;
+  color: black;
+
 }
 
-
-img{
-    width: 100%;
-    height:100%;
-    object-fit: cover;
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-
 
 .link {
   display: flex;
@@ -88,4 +81,55 @@ img{
 
 .link a:hover {
   transform: scale(1.2);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  padding: 2%;
+}
+
+.tekstboks {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-content: space-between;
+}
+
+p {
+  width: 100%;
+  font-size: x-large;
+  align-items: center;
+  line-height: 1.5;
+  margin: top 0;
+}
+
+
+.bilder-rad {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 70px;
+    
+}
+
+
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+figure img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid darkgray;
+}
+
+figcaption {
+    margin-top: 10px;
 }
