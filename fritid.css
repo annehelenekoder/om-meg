@@ -133,3 +133,17 @@ figure img {
 figcaption {
     margin-top: 10px;
 }
+
+
+
+#video{
+
+  background-color: rgb(244, 244, 240);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  padding: 2%;
+}
